@@ -1,0 +1,4 @@
+# 项目排除路径
+/seal-onlinevideo-api/target/
+/seal-onlinevideo-dao/target/
+/seal-onlinevideo-service/target/

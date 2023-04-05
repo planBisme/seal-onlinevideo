@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>seal-onlinevideo</artifactId>
+        <groupId>com.seal</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>seal-onlinevideo-service</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.seal</groupId>
+            <artifactId>seal-onlinevideo-dao</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+    </dependencies>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+    <distributionManagement>
+        <repository>
+            <id>seal-release</id>
+            <url>http://localhost:8081/repository/seal-release/</url>
+        </repository>
+        <snapshotRepository>
+            <id>seal-snapshot</id>
+            <url>http://localhost:8081/repository/seal-snapshot/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+</project>
